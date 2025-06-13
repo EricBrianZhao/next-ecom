@@ -10,9 +10,11 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <nav className="space-x-4">
           <Link href="/">Home</Link>
           <Link href="/login">Login</Link>
+          <Link href="/register">Register</Link>
         </nav>
       </header>
       <main className="p-6">{children}</main>
     </div>
   )
 }
+

@@ -9,8 +9,8 @@ type Props = {
 
 export default function ProductCard({ product }: Props) {
   return (
-    <Link href={`/product/${product.id}`}>
-      <div className="rounded-2xl shadow p-4 bg-white hover:shadow-lg transition cursor-pointer">
+    <Link href={`/products/${product.id}`} passHref>
+      <div className="rounded-2xl shadow p-4 bg-white hover:shadow-xl hover:scale-105 transition-transform duration-300 cursor-pointer">
         <img
           src={product.image}
           alt={product.name}

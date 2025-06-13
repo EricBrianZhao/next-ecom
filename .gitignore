@@ -1,0 +1,16 @@
+# Go
+go.sum
+*.exe
+*.out
+*.log
+
+# Node
+node_modules/
+.next/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
